@@ -12,7 +12,7 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://hanifanwary.github.io/Huddle-landing-page/)
 
 ### Built with
 
