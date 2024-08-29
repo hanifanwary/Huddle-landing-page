@@ -1,0 +1,555 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+header {
+  max-width: 100vw;
+  background-image: url(images/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(208, 11%, 55%);
+}
+
+/* navbar */
+.container header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.container header nav img {
+  max-width: 30vw;
+  max-height: 30px;
+  background-size: cover;
+}
+
+.container header nav button {
+  position: relative;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2.5em;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all 0.2s;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: black;
+  background-color: rgb(236, 215, 215);
+}
+
+.container header nav button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* section one */
+
+.container header .first {
+  width: 100vw;
+  display: flex;
+  padding: 20px;
+  column-gap: 50px;
+}
+
+.container header .first .firstImg img {
+  width: 45vw;
+}
+
+.container header .first .asideFirst {
+  max-width: 50vw;
+}
+
+.container header .first .asideFirst h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.container header .first .asideFirst p {
+  max-width: 40vw;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.container header .first .asideFirst p,
+.container header .first .asideFirst button {
+  position: relative;
+  top: -40px;
+}
+
+.container header .first .asideFirst button {
+  position: relative;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2.5em;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all 0.2s;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+}
+
+.container header .first .asideFirst button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* section 2 */
+.container .grow {
+  background-color: hsl(193, 100%, 96%);
+  display: flex;
+  padding: 100px;
+  gap: 50px;
+}
+
+.container .grow img {
+  max-width: 40vw;
+}
+
+.container .grow .growAside {
+  max-width: 50vw;
+}
+
+.container .grow .growAside h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.container .grow .growAside p {
+  max-width: 40vw;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  top: -40px;
+}
+
+/* section 3 */
+.container .flowing {
+  background-color: hsl(193, 100%, 96%);
+  display: flex;
+  padding: 100px;
+  gap: 50px;
+}
+
+.container .flowing img {
+  order: 1;
+  max-width: 40vw;
+}
+
+.container .flowing .flowingAside {
+  order: 2;
+}
+
+.container .flowing .flowingAside h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.container .flowing .flowingAside p {
+  max-width: 40vw;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  top: -40px;
+}
+
+/* section 4 */
+
+.container .yourUser {
+  background-color: hsl(193, 100%, 96%);
+  display: flex;
+  padding: 100px;
+  gap: 50px;
+}
+
+.container .yourUser img {
+  max-width: 40vw;
+}
+
+.container .yourUser .yourAside h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.container .yourUser .yourAside p {
+  max-width: 40vw;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  top: -40px;
+}
+
+/* pre-footers */
+
+.container .pre-footers {
+  background-color: hsl(193, 100%, 96%);
+  position: absolute;
+  margin-left: 35%;
+  margin-right: 10%;
+  margin-top: -50px;
+  padding: 30px;
+  max-width: 30vw;
+  max-height: 50vw;
+  border: 2px solid hsl(193, 100%, 96%);
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+
+.container .pre-footers h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.container .pre-footers button {
+  position: relative;
+  left: 50px;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2.5em;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all 0.2s;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+}
+
+.container .pre-footers button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* footers */
+.footers {
+  max-width: 100vw;
+  padding: 200px;
+  display: flex;
+  gap: 50px;
+  background-color: hsl(192, 100%, 9%);
+}
+
+.footers .listOne {
+  max-width: 30vw;
+}
+
+.footers .listOne ul li {
+  color: hsl(193, 100%, 96%);
+}
+
+.footers .listOne ul li:nth-child(1) {
+  list-style: none;
+}
+
+.footers .listOne ul li:nth-child(2) {
+  list-style-image: url(images/icon-location.svg);
+}
+
+.footers .listOne ul li:nth-child(3) {
+  list-style-image: url(images/icon-phone.svg);
+}
+.footers .listOne ul li:nth-child(4) {
+  list-style-image: url(images/icon-email.svg);
+}
+
+.footers .listOne ul li:nth-child(1) img {
+  background-color: white;
+}
+
+.footers .two {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+
+.footers .two a {
+  color: hsl(193, 100%, 96%);
+  text-decoration: none;
+}
+
+.footers .two a:hover {
+  text-decoration: underline;
+}
+
+.footers .three {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+}
+
+.footers .three a {
+  color: hsl(193, 100%, 96%);
+  text-decoration: none;
+}
+
+.footers .three a:hover {
+  text-decoration: underline;
+}
+
+.footers .four {
+  margin: 20px;
+}
+
+.footers .four a {
+  color: white;
+  padding: 10px;
+  border-radius: 100%;
+  border: 1px solid hsl(193, 100%, 96%);
+  z-index: 1;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.footers .four a:hover {
+  color: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+}
+
+.container .copy {
+  max-width: 100vw;
+  position: absolute;
+  z-index: 1;
+  margin-top: 120px;
+  margin-left: 700px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .container header nav {
+    max-width: 100vw;
+  }
+
+  .container header nav img {
+    max-width: 15vw;
+    background-size: cover;
+  }
+
+  .container header nav button {
+    max-width: 80vw;
+    position: relative;
+    right: 20px;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.5em 1.5em;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all 0.2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: black;
+    background-color: rgb(236, 215, 215);
+  }
+
+  .container header .first {
+    position: relative;
+    left: 20px;
+    max-width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    column-gap: 50px;
+  }
+
+  .container header .first .firstImg img {
+    max-width: 100%;
+    position: relative;
+    right: 60px;
+  }
+
+  .container header .first .asideFirst {
+    margin: auto;
+    position: relative;
+    right: 40px;
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+  }
+
+  .container header .first .asideFirst h4 {
+    position: relative;
+    max-width: 900px;
+    font-size: 2rem;
+    padding-bottom: 10px;
+  }
+
+  .container header .first .asideFirst p {
+    max-width: 100vw;
+    position: relative;
+    left: 10px;
+  }
+
+  .container .grow {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container .grow .growAside {
+    max-width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .container .grow .growAside p {
+    max-width: 100vw;
+  }
+
+  .container .grow img {
+    max-width: 100vw;
+  }
+
+  /* section 3  */
+  .container .flowing {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .container .flowing .flowingAside {
+    max-width: 90vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .flowing .flowingAside h4 {
+    max-width: 100vw;
+    font-size: 1.8rem;
+  }
+
+  .container .flowing .flowingAside p {
+    max-width: 100vw;
+  }
+
+  .container .flowing img {
+    max-width: 100vw;
+  }
+
+  /* section 4 */
+
+  .container .yourUser {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container .yourUser .yourAside {
+    max-width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .container .yourUser .yourAside p {
+    max-width: 100vw;
+  }
+
+  .container .yourUser img {
+    max-width: 100vw;
+  }
+
+  .container .pre-footers {
+    position: absolute;
+    right: -30px;
+    /* left: -200px; */
+    overflow: hidden;
+    padding-left: 35%;
+    padding-right: 25%;
+  }
+
+  .container .pre-footers h2 {
+    max-width: 100vw;
+    position: relative;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .container .pre-footers button {
+    max-width: 100vw;
+    position: relative;
+    width: 300px;
+    margin: auto;
+    left: -90px;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.5em 1.5em;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all 0.2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+  }
+
+  .footers {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    padding-top: 200px;
+  }
+
+  .footers .listOne ul {
+    display: inline-flex;
+    text-align: start;
+    position: relative;
+    left: 90%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .container .copy {
+    width: 100%;
+    position: relative;
+    left: -690px;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
