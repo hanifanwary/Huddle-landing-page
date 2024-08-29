@@ -337,6 +337,16 @@ header {
 }
 
 @media (max-width: 768px) {
+
+    header {
+    max-width: 100vw;
+    background-image: url(images/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(208, 11%, 55%);
+  }
+
+  
   .container {
     max-width: 100vw;
     overflow-x: hidden;
